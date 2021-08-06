@@ -1,10 +1,8 @@
 #include "board.hpp"
+#include <SFML/Graphics.hpp>
+#include "MainWindow.hpp"
 int main()
 {
-    Board b;
-    b.setSymbol(1,1,Board::Symbols::X);
-    b.setSymbol(1,1,Board::Symbols::O);
-    b.setSymbol(2,2,Board::Symbols::O);
-    b.setSymbol(2,2,Board::Symbols::O);
+    MainWindow mainWindow();
 	return 0;
 }
